@@ -1,0 +1,856 @@
+* {
+    font-family: Roboto,Arial,sans-serif;
+    margin: 0;
+    padding: 0;
+    /* margin: 20px 180px; */
+    color: #747474;
+}
+
+/* em is a CSS unit relative to the font size of the parent element, while rem is a CSS unit relative to the font size of an html element */
+
+/* navbar */
+
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    background: hsla(0,0%,100%,.98);
+    box-shadow: 0 -2px 10px 0 rgb(0 0 0 / 15%);
+  
+}
+
+.wb_navbar {
+    margin: 0 167px;
+    padding: 20px; 
+   }
+
+.details_navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.details_navbar img {
+    height: 32px;
+}
+
+.wb_links a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px;
+    color: #747474;
+}
+
+.wb_links .currently {
+    color: #00b39b;
+}
+
+/* HEALTH EXPERIENCE SECTION */
+
+
+.healthcare_experience {
+    margin: 130px 167px;
+    margin-bottom: 70px;
+}
+
+.healthcare_experience img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 38px;
+}
+
+.title_healthcare h1{
+    font-size: 34px;
+    font-weight: 100;
+    color: #00b39b;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.twoP_healthcare {
+    display: flex;
+    justify-content: space-between;
+    line-height: 1.8;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+
+
+
+/* three choices */
+
+
+.container .row{
+    margin: 50px;
+}
+
+.container .row .for_patients{
+    background: #00ccb1;
+    padding: 32px;
+    border-radius: 10px;
+    height: 345px;
+ 
+}
+
+.container .row .for_doctors{
+    background: #3d83df;
+    padding: 32px;
+    border-radius: 10px;
+    height: 345px;
+}
+
+
+.container .row .for_clinics{
+    background: #1b2734;
+    padding: 32px;
+    border-radius: 10px;
+    height: 345px;
+}
+
+.container p{
+    font-size: 22px;
+    font-weight: 100;
+    color: white;
+}
+
+.container h2{
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+}
+
+.container i {
+    font-size: 30px;
+    color: white;
+}
+
+.container select {
+    font-size: 19px;
+    border: 0;
+    background: none;
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+/* gobal company */
+
+
+.section3{
+    margin-bottom: -15%;
+}
+.title_global h1{
+    color: #00b39b;
+    font-size: 27px;
+    padding-top: 10px;
+    word-spacing: 4px;
+}
+
+.details_global ul{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0;
+}
+
+.details_global li{
+    padding: 12px;
+
+}
+
+.details_global a svg {
+    height: 21px;
+    width: auto;
+    max-width: 100%;
+    fill: rgb(179, 177, 177);
+
+}
+
+.details_global a img{
+    filter: grayscale(95%);
+}
+
+
+/* biggest platform */
+
+.bighest_platform {
+    background: #e5faf8;
+}
+
+.biggest_platform {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 167px;
+    
+}
+
+.part2 {
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 1px 4px 0 rgb(0 0 0 / 5%);
+    height: 250px;
+    text-align: center;
+    padding: 15px;
+    font-size: 13px;
+    width: 30%;
+}
+
+/* biggest healtcare */
+.text{
+  margin-top:180px;
+}
+
+.text h1{
+  font-size: 2.125rem;
+  color: #00b39b;
+}
+
+.text p{
+  max-width: 415px;
+  font-size: .9em;
+  font-weight: 400;
+  line-height: 2;
+  color: #747474;
+}
+
+.image{
+  margin-top:50px;
+}
+
+
+/* section big */
+
+.section4-center{
+  display:flex;
+  justify-content:space-around;
+  width:1057px;
+  padding-top:20px;
+}
+
+.section4{
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+  position:relative;
+  background-color: #e5faf8;
+  width: 100%;
+  height:600px;
+  top:220px;
+  overflow: hidden; /* dnt go outside the page */
+  padding-bottom:30px;
+}
+
+.statistic{
+  width:498px;
+  padding-top:130px;
+}
+
+.stat-2{
+    background: #fff;
+    border-radius: 5px;
+    font-size: .8125em;
+    display: flex;
+  text-align: center;
+    position: relative;
+    width:230px;
+    height:230px;
+  flex-direction:column;
+  /* justifey-content:space-around; */
+  align-items:center;
+  align-content:center;
+  padding-top:20px;
+}
+
+.stat-2 h3{
+      font-size: 1.8461538462em;
+    color: #00b39b;
+    margin: .5em 0;
+}
+
+.stat-2 p{
+    font-weight: 400;
+    color: #747474;
+    /* font-smoothing: antialiased; */
+}
+
+.stat-1{
+    background: #fff;
+    border-radius: 5px;
+    font-size: .8125em;
+    display: flex;
+  text-align: center;
+    position: relative;
+    width:230px;
+    height:230px;
+  flex-direction:column;
+  /* justifey-content:space-around; */
+  align-items:center;
+  align-content:center;
+  margin-top:40px;
+  padding-top:20px;
+}
+
+.stat-1 h3{
+      font-size: 1.8461538462em;
+    color: #00b39b;
+    margin: .5em 0;
+}
+
+.stat-1 p{
+    font-weight: 400;
+    color: #747474;
+    /* font-smoothing: antialiased; */
+}
+
+.stat-part1{
+  display:flex;
+  justify-content:space-around;
+}
+
+/* healthcare */
+
+  
+  .section5{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    position: relative;
+    top:180px;
+  }
+  
+  .div-section5{
+    width:460px;
+    font-size: .875em;
+    text-align: center;
+    color: #747474;
+    padding-top: 70px;
+    margin-top: 4%;
+    margin-bottom: 4%;
+  }
+  
+  .div-section5 h1{
+    font-size: 1.8rem;
+    color: #00b39b;
+    padding: 20px;
+    line-height: 1.4;
+  }
+  
+  .section6{
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    align-items: center;
+    position: relative;
+    top:160px;
+    margin-top:40px;
+    margin-bottom:80px;
+  }
+  
+  .section6-part{
+    display:flex;
+    justify-content:space-around;
+    width: 1015px;
+    position:relative;
+    padding-bottom:20px;
+  }
+  
+  .section6-img{
+    width:311px;
+    height:350px;
+    background: #fff;
+    border: 1px solid rgba(0,0,0,.03);
+    border-radius: 6px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content:space-around;
+    color: #747474;
+  }
+  
+  .city-name{
+    font-size: 1.125em;
+    font-weight: 400;
+    display:flex;
+    justify-content:space-around;
+    position:relative;
+    top:15px;
+  }
+  
+  .openings{
+    /* float: right;  :places an element on the left or right side of its container, allowing text and inline elements to wrap around it*/ 
+    padding: .7em 1.2em;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    border-radius: 4px;
+    background: #3d83df;
+    line-height: 1em;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: .04em;
+    font-size: .75rem;
+    text-align: center;
+    border: none;
+    transition: 0.7s;
+  }
+  
+  .openings:hover{
+    background: #1870e2;
+  }
+  
+  .section6-img a{
+    text-decoration:none;
+    color:#747474;
+  }
+  
+  .section6-img:hover{
+    box-shadow: 5px 5px 5px #d1d1d1;
+  }
+  /*main*/
+  
+
+/* interesting  */
+
+  .section7 {
+    display: flex;
+    justify-content: center;
+    margin-top: 18%;
+    margin-bottom: -10%;
+  }
+
+  .section7 h1{
+    font-size: 1.8em;
+    color: rgba(0, 0, 0, 0.767);
+  }
+
+  .all-openings {
+
+    padding: .9em 1.1em;
+    position: relative;
+    border-radius: 4px;
+    background: #3d83df;
+    line-height: 1em;
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: .04em;
+    font-size: .9rem;
+    text-align: center;
+    border: none;
+    transition: 0.7s;
+    margin: 5%;
+  }
+
+  .all-openings:hover{
+    background: #1870e2;
+  }
+
+
+  /*footer*/
+  .MyFooter {
+    border-top: 1px solid #eef2f2;
+    font-size: .75em;
+    color: #ababab;
+    text-align: center;
+    padding: 1em 0;
+    position:relative;
+    top:150px;
+  }
+  
+  .DivFooter {
+      max-width: 1015px;
+      padding: 0 20px;
+      margin: 0 auto;
+      position: relative;
+  }
+  
+  .MyFooter p {
+      margin-bottom: .4em;
+  }
+  
+  p {
+      margin: 1.6em 0;
+      display: block;
+  }
+  
+  .DivFooter a{
+    text-decoration:none;
+    color: #3d83df;
+  }
+  
+  .DivFooter a:hover{
+    text-decoration:underline;
+  }
+  /*footer*/
+
+
+  @media (max-width:576px) {
+
+
+    .wb_navbar {
+      margin: 0 60px ;
+      width: 22%;
+      padding: 10px; 
+      
+     }
+  
+  
+  .details_navbar img {
+      height: 20px;
+  }
+  
+  .wb_links a {
+      text-decoration: none;
+      font-size: 10px;
+      font-weight: 500;
+      padding: 5px;
+      color: #747474;
+   
+  }
+
+
+  /* section 2 */
+
+  .healthcare_experience {
+    margin: 130px 180px;
+    margin-bottom: 70px;
+    width: 446px;
+    
+
+}
+
+
+.healthcare_experience img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 38px;
+}
+
+.title_healthcare h1{
+    font-size: 30px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.twoP_healthcare {
+     display: block;
+    line-height: 1.8;
+    margin: 15px 0;
+    padding: 10px;
+    font-size: 13px;
+
+}
+
+.twoP_healthcare p{
+
+padding-top: 10px;
+}
+  
+
+/* 3 chs */
+
+.container .row{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.container .row .for_patients{
+  width: 340px;
+  padding: 42px;
+  height: 345px;
+  margin: 15px 0;
+}
+
+.container .row .for_doctors{
+  width: 340px;
+  padding: 42px;
+  height: 345px;
+  margin: 15px 0;
+}
+
+
+.container .row .for_clinics{
+  width: 340px;
+  padding: 42px;
+  height: 345px;
+  margin: 15px 0;
+}
+
+/* global company  */
+
+.container .row  {
+
+  margin: 0;
+
+}
+
+
+.container .row .details_global {
+
+  margin-left: 50%;
+  display: flex;
+  justify-content: space-between;
+
+
+}
+
+.container .row .details_global {
+
+ 
+}
+
+.title_global h1{
+  display: block;
+  text-align: center;
+  width: 420px;
+
+}
+
+.details_global ul{
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  align-content: flex-start;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0;
+}
+
+.details_global li{
+  padding: 12px;
+
+}
+
+
+/*footer*/
+  
+  .DivFooter {
+      max-width: 380px;
+  }
+  
+  .MyFooter p {
+      margin-bottom: .4em;
+      font-size: .8em;
+  }
+  
+  p {
+      margin: 1.6em 0;
+      display: block;
+  }
+  
+
+  /*footer*/
+
+
+  /* improve the lives */
+  .section5{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    position: relative;
+    top:180px;
+  }
+  
+  .div-section5 p{
+    font-size: .8em;
+
+  }
+  
+  .div-section5 h1{
+    font-size: 1.5rem;
+    max-width: 500px;
+    text-align: center;
+  }
+  
+
+  /* section 6 */
+
+  .section6{
+    justify-content:flex-start;
+    margin-left: 10%;
+    flex-direction: row;
+  }
+  
+  .section6-part{
+    display:flex;
+    justify-content:space-around;
+    width: 1015px;
+    position:relative;
+    padding-bottom:20px;
+    
+  }
+  
+  .section6-img{
+    width:311px;
+    height:350px;
+    background: #fff;
+    border: 1px solid rgba(0,0,0,.03);
+    border-radius: 6px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content:space-around;
+    color: #747474;
+    flex-wrap: nowrap;
+  }
+
+
+/* section 7 */
+  .section7 {
+    display: flex;
+    justify-content: center;
+    margin-top: 35%;
+    margin-bottom: -10%;
+  }
+
+  .section7 h1{
+    max-width: 500px;
+    font-size: 1.4em;
+    color: rgba(0, 0, 0, 0.767);
+  }
+
+
+    
+  /* section big */
+
+  .section4-center{
+    display: block;
+    justify-content:space-around;
+    width:486px;
+ 
+  }
+
+
+  .section4-center .text {
+
+    display: block;
+    margin-top: 0;
+    font-size: .9em;
+    text-align: center;
+  }
+
+  .section4-center .text p {
+    font-size: .9em;
+    text-align: center;
+    margin-left: 3%;
+  }
+  
+  
+  .section4{
+    display: block;
+    justify-content:flex-start;
+    flex-direction: column;
+    z-index: 999;
+    align-items:center;
+    position:relative;
+    background-color: #e5faf8;
+    width: 100%;
+    height:600px;
+    top:220px;
+    
+   overflow: visible;   /*dnt go outside the page */
+  
+   margin-left: 11%;
+  }
+
+ 
+  
+  .statistic{
+    width:498px;
+    padding-top:30px;
+    margin-top: -7%;
+    z-index: 999;
+  
+   
+
+  }
+  
+
+  .section4-center .image {
+    display: none;
+  }
+  .stat-2{
+    background: #fff;
+    border-radius: 5px;
+    font-size: .8em;
+    display: flex;
+    text-align: center;
+    position: relative;
+    width:170px;
+    height:170px;
+    flex-direction:column;
+    justify-content:space-around;
+    align-items:center;
+    padding-top:3px;
+    margin-right: 17%;
+    
+
+  }
+  
+  .stat-2 h3{
+        font-size: 1.2em;
+      color: #00b39b;
+      margin: .5em 0;
+  }
+  
+  .stat-2 p{
+      font-weight: 400;
+      color: #747474;
+      font-size: 0.8em;
+      /* font-smoothing: antialiased; */
+  }
+  
+  .stat-1{
+    background: #fff;
+    border-radius: 5px;
+    font-size: .8em;
+    display: flex;
+  text-align: center;
+    position: relative;
+    width:170px;
+    height:170px;
+  flex-direction:column;
+  justify-content: center;
+  align-items:center;
+  margin-left: 10%;
+  padding-top:3px;
+  }
+  
+  .stat-1 h3{
+        font-size: 1.2em;
+      color: #00b39b;
+      margin: .5em 0;
+     
+  }
+  
+  .stat-1 p{
+      font-weight: 400;
+      color: #747474;
+      font-size: 0.8em;
+      /* font-smoothing: antialiased; */
+  }
+  
+  .stat-part1{
+    display:flex;
+    justify-content:space-around;
+  }
+  
+   
+    
+  }
